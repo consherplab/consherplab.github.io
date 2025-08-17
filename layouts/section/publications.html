@@ -13,10 +13,10 @@
     <li>
       {{ if $src }}
         <a href="{{ $src }}" class="hover:underline">
-          {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+          {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal | markdownify }}
         </a>
       {{ else }}
-        {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+        {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal | markdownify }}
       {{ end }}
     </li>
   {{ end }}
