@@ -11,7 +11,7 @@ authors:
 date: 2023-01-15
 publication_types: ["2"]
 publication: "*Herpetology Notes, 16: 87–89*"
-url_source: "https://www.biotaxa.org/hn/article/view/74254"
+url_source: "https://www.biotaxa.org/hn/article/view/76087"
 featured: false
 abstract: ""
 ---
