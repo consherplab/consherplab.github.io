@@ -2,24 +2,28 @@
 <main class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-6">Publications</h1>
 
-  <ol class="list-decimal pl-6 space-y-3">
-  {{ range .Pages.ByDate.Reverse }}
-    {{ $authors := delimit .Params.authors ", " }}
-    {{ $year := .Date.Format "2006" }}
-    {{ $title := .Title }}
-    {{ $journal := .Params.publication }}
-    {{ $src := or .Params.url_source .Params.url_pdf }}
+  {{/* Group by year, newest first */}}
+  {{ range (.Pages.GroupByDate "2006").Reverse }}
+    <h2 class="text-2xl font-semibold mt-8 mb-3">{{ .Key }}</h2>
+    <ol class="list-decimal pl-6 space-y-2">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ $authors := delimit .Params.authors ", " }}
+        {{ $year := .Date.Format "2006" }}
+        {{ $title := .Title | markdownify }}
+        {{ $journal := .Params.publication | markdownify }}
+        {{ $src := or .Params.url_source .Params.url_pdf }}
 
-    <li>
-      {{ if $src }}
-        <a href="{{ $src }}" target="_blank" rel="noopener noreferrer" class="hover:underline">
-  {{ $authors }} ({{ $year }}): {{ $title | markdownify }}. {{ $journal | markdownify }}
-</a>
-      {{ else }}
-        {{ $authors }} ({{ $year }}): {{ $title | markdownify }}. {{ $journal | markdownify }}
+        <li>
+          {{ if $src }}
+            <a href="{{ $src }}" target="_blank" rel="noopener noreferrer" class="hover:underline">
+              {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+            </a>
+          {{ else }}
+              {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+          {{ end }}
+        </li>
       {{ end }}
-    </li>
+    </ol>
   {{ end }}
-  </ol>
 </main>
 {{ end }}
