@@ -1,0 +1,5 @@
+.pub-list p {
+  text-indent: -2em;   /* hanging indent */
+  margin-left: 2em;    /* aligns wrapped lines */
+  margin-bottom: 0.8em;
+}
