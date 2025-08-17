@@ -7,3 +7,8 @@
 # keep /docs because GitHub Pages serves from it
 public/
 resources/_gen/
+
+# ignore secrets
+*.env
+*token*
+*access*token*

@@ -1,0 +1,25 @@
+<!-- Force ConsHerpLab favicons (runs after theme inserts its defaults) -->
+<link rel="preload" as="image" href="/media/icon/favicon.ico?v=9">
+<script>
+(function() {
+  try {
+    var head = document.getElementsByTagName('head')[0];
+    // Remove any existing icon links (theme-generated ones)
+    var sels = 'link[rel="icon"],link[rel="shortcut icon"],link[rel="apple-touch-icon"]';
+    document.querySelectorAll(sels).forEach(function(el){ el.parentNode.removeChild(el); });
+    // Helper to add our links (added last, so browsers use them)
+    function add(rel, href, type, sizes){
+      var l = document.createElement('link');
+      l.rel = rel;
+      l.href = href;
+      if (type)  l.type = type;
+      if (sizes) l.sizes = sizes;
+      head.appendChild(l);
+    }
+    add('shortcut icon', '/media/icon/favicon.ico?v=9', 'image/x-icon');
+    add('icon',          '/media/icon/favicon.svg?v=9', 'image/svg+xml');
+    add('icon',          '/media/icon/favicon-96x96.png?v=9', 'image/png', '96x96');
+    add('apple-touch-icon', '/media/icon/apple-touch-icon.png?v=9', null, '180x180');
+  } catch(e) { /* no-op */ }
+})();
+</script>
