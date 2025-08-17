@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main class="container mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold mb-6">Publications</h1>
+
+  <ol class="list-decimal pl-6 space-y-3">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ $authors := delimit .Params.authors ", " }}
+    {{ $year := .Date.Format "2006" }}
+    {{ $title := .Title }}
+    {{ $journal := .Params.publication }}
+    {{ $src := or .Params.url_source .Params.url_pdf }}
+
+    <li>
+      {{ if $src }}
+        <a href="{{ $src }}" class="hover:underline">
+          {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+        </a>
+      {{ else }}
+        {{ $authors }} ({{ $year }}): {{ $title }}. {{ $journal }}
+      {{ end }}
+    </li>
+  {{ end }}
+  </ol>
+</main>
+{{ end }}
