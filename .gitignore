@@ -1,0 +1,9 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.Rproj
+# keep /docs because GitHub Pages serves from it
+public/
+resources/_gen/
