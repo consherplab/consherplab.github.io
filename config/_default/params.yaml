@@ -36,7 +36,6 @@ header:
     show_theme_chooser: true
     logo:
       text: "ConsHerpLab"
-    favicon: "favicon.ico"
 
 # Site footer
 footer:
