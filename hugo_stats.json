@@ -387,6 +387,7 @@
       "py-2",
       "py-3",
       "py-5",
+      "py-8",
       "relative",
       "ring-8",
       "ring-white",
@@ -518,7 +519,8 @@
       "teaching",
       "test-students",
       "top",
-      "video"
+      "video",
+      "welcome-to-consherplab"
     ]
   }
 }
