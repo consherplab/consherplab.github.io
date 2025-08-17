@@ -6,5 +6,11 @@
       <atom:link href="https://consherplab.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>https://consherplab.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Projects</title>
+      <link>https://consherplab.github.io/projects/</link>
+    </image>
+    
   </channel>
 </rss>
