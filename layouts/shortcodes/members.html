@@ -1,0 +1,47 @@
+{{- $data := site.Data.members.members -}}
+{{- if not $data -}}
+<p style="color:#b00">No members found in data/members.yaml</p>
+{{- else -}}
+<style>
+  .ch-members-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
+  .ch-member { background:transparent; padding:0; }
+  .ch-member .ph { position:relative; width:100%; padding-top:100%; overflow:hidden; border-radius:8px; }
+  .ch-member img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
+  .ch-member .nm { font-weight:600; margin-top:8px; }
+  .ch-member .af { font-style:italic; font-size:0.95rem; }
+  .ch-member .in { font-size:0.95rem; }
+</style>
+
+<div class="ch-members-grid" id="ch-members-grid">
+  {{- range $data -}}
+  <div class="ch-member">
+    <div class="ph">
+      <img src="{{ .image }}" alt="{{ .name }}">
+    </div>
+    <div class="txt">
+      {{- if .rg_url -}}
+        <div class="nm"><a href="{{ .rg_url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></div>
+      {{- else -}}
+        <div class="nm">{{ .name }}</div>
+      {{- end -}}
+      <div class="af">{{ .affiliation }}</div>
+      <div class="in">{{ .interests }}</div>
+    </div>
+  </div>
+  {{- end -}}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  const grid = document.getElementById('ch-members-grid');
+  if(!grid) return;
+  const kids = Array.from(grid.children);
+  // Fisher–Yates shuffle for each visit
+  for (let i = kids.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    grid.appendChild(kids[j]);
+    kids.splice(j, 1);
+  }
+});
+</script>
+{{- end -}}

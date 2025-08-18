@@ -1,6 +1,6 @@
 ---
-title: "Lab Members"
-toc: false
+title: "Members"
+type: page
 ---
-### Principal Investigator
-- **PI:** Your Name — Principal Investigator
+
+{{< members >}}
