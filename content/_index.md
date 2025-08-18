@@ -5,9 +5,7 @@ toc: false
 ---
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/consherplab_logo-01.jpg" 
-       alt="ConsHerpLab Logo" 
-       style="max-width:160px; height:auto; margin-bottom: 10px;">
+  <img src="/images/consherplab_logo-01.jpg" alt="ConsHerpLab Logo" style="max-width:150px; height:auto;">
 </div>
 
 <p>
