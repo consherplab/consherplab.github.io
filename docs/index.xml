@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Academic CV Theme</title>
+    <title>ConsHerpLab</title>
     <link>https://consherplab.github.io/</link>
       <atom:link href="https://consherplab.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hugo Academic CV Theme</description>
+    <description>ConsHerpLab</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://consherplab.github.io/media/icon_hu_d3200dc62e89e9e1.png</url>
-      <title>Hugo Academic CV Theme</title>
+      <title>ConsHerpLab</title>
       <link>https://consherplab.github.io/</link>
     </image>
     
