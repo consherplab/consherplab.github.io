@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | ConsHerpLab</title>
-    <link>https://consherplab.github.io/projects/</link>
-      <atom:link href="https://consherplab.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/projects/</link>
+      <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://consherplab.github.io/media/icon_hu_d3200dc62e89e9e1.png</url>
+      <url>http://localhost:1313/media/icon_hu_d3200dc62e89e9e1.png</url>
       <title>Projects</title>
-      <link>https://consherplab.github.io/projects/</link>
+      <link>http://localhost:1313/projects/</link>
     </image>
     
   </channel>
