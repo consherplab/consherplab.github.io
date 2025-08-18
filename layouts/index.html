@@ -1,5 +1,19 @@
 {{ define "main" }}
-  <main class="container mx-auto prose px-4 py-8">
+<main class="container mx-auto px-4 py-8 text-center">
+  <div class="mb-6">
+    <img src="/images/consherplab_logo-01.jpg" alt="ConsHerpLab Logo" class="mx-auto h-32">
+  </div>
+
+  <h1 class="text-4xl font-bold mb-6">{{ .Title }}</h1>
+  <div class="prose max-w-none mx-auto mb-8 text-left">
     {{ .Content }}
-  </main>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {{ $images := shuffle (readDir "static/images/landing") }}
+    {{ range $images }}
+      <img src="/images/landing/{{ .Name }}" class="rounded-lg shadow-md">
+    {{ end }}
+  </div>
+</main>
 {{ end }}
