@@ -194,6 +194,7 @@
       "h-28",
       "h-3",
       "h-3.5",
+      "h-32",
       "h-4",
       "h-48",
       "h-5",
@@ -269,6 +270,7 @@
       "max-lg:hidden",
       "max-w-6xl",
       "max-w-[65ch]",
+      "max-w-none",
       "max-w-prose",
       "max-w-screen-lg",
       "max-w-screen-xl",
@@ -286,6 +288,7 @@
       "md:flex-row",
       "md:flex-shrink-0",
       "md:grid-cols-2",
+      "md:grid-cols-3",
       "md:grid-cols-[200px_auto]",
       "md:order-2",
       "md:px-0",
@@ -405,6 +408,7 @@
       "skills-content",
       "skills-icon",
       "skills-name",
+      "sm:grid-cols-2",
       "sm:px-0",
       "sm:text-lg",
       "space-x-3",
@@ -428,6 +432,7 @@
       "text-gray-500",
       "text-gray-700",
       "text-gray-900",
+      "text-left",
       "text-lg",
       "text-md",
       "text-neutral-500",
@@ -508,8 +513,7 @@
       "teaching",
       "test-students",
       "top",
-      "video",
-      "welcome-to-consherplab"
+      "video"
     ]
   }
 }
