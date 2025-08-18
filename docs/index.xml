@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <description>Home</description>
+    <title>Hugo Academic CV Theme</title>
+    <link>https://consherplab.github.io/</link>
+      <atom:link href="https://consherplab.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Academic CV Theme</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_d3200dc62e89e9e1.png</url>
-      <title>Home</title>
-      <link>http://localhost:1313/</link>
+      <url>https://consherplab.github.io/media/icon_hu_d3200dc62e89e9e1.png</url>
+      <title>Hugo Academic CV Theme</title>
+      <link>https://consherplab.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/event/example/</link>
+      <link>https://consherplab.github.io/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
+      <guid>https://consherplab.github.io/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -38,129 +38,129 @@
     
     <item>
       <title>Restriction times on the rise: mechanistic modelling of activity time of grassland vipers (*Vipera* spp.) in the face of climate change</title>
-      <link>http://localhost:1313/publications/mizsei-2025-frontiersinzoology/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2025-frontiersinzoology/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2025-frontiersinzoology/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2025-frontiersinzoology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Male-biased road mortality of eastern green lizards (*Lacerta viridis*) in Northeast Hungary</title>
-      <link>http://localhost:1313/publications/szabolcs-2025-salamandra/</link>
+      <link>https://consherplab.github.io/publications/szabolcs-2025-salamandra/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/szabolcs-2025-salamandra/</guid>
+      <guid>https://consherplab.github.io/publications/szabolcs-2025-salamandra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Smooth Snake is not a threat to the Meadow Viper: predator–prey interactions of a reptile specialist snake</title>
-      <link>http://localhost:1313/publications/wenner-2025-communityecology/</link>
+      <link>https://consherplab.github.io/publications/wenner-2025-communityecology/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/wenner-2025-communityecology/</guid>
+      <guid>https://consherplab.github.io/publications/wenner-2025-communityecology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reducing the knowledge gap on predators of the Hungarian meadow viper (*Vipera ursinii rakosiensis*): telemetry tracking and prey identification from nests of Common buzzard (*Buteo buteo*)</title>
-      <link>http://localhost:1313/publications/mizsei-2025-heliaca/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2025-heliaca/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2025-heliaca/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2025-heliaca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Road mortality of water snakes in light of landscape structure and traffic intensity in north-eastern Hungary</title>
-      <link>http://localhost:1313/publications/szabolcs-2024-peerj/</link>
+      <link>https://consherplab.github.io/publications/szabolcs-2024-peerj/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/szabolcs-2024-peerj/</guid>
+      <guid>https://consherplab.github.io/publications/szabolcs-2024-peerj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alpine viper in changing climate: thermal ecology and prospects of a cold-adapted reptile in the warming Mediterranean</title>
-      <link>http://localhost:1313/publications/mizsei-2024-scientificreports/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2024-scientificreports/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2024-scientificreports/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2024-scientificreports/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predation on the endangered Hungarian meadow viper (*Vipera ursinii rakosiensis*) in grazed and mowed grassland habitats: insights from plasticine models</title>
-      <link>http://localhost:1313/publications/more-2024-rangelandecologyandmanagement/</link>
+      <link>https://consherplab.github.io/publications/more-2024-rangelandecologyandmanagement/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/more-2024-rangelandecologyandmanagement/</guid>
+      <guid>https://consherplab.github.io/publications/more-2024-rangelandecologyandmanagement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microhabitat selection of meadow and steppe vipers enlightened by digital photography and image processing to describe grassland vegetation structure</title>
-      <link>http://localhost:1313/publications/mizsei-2024-journalofzoology/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2024-journalofzoology/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2024-journalofzoology/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2024-journalofzoology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A novel geometric morphometric approach to identify snake prey vertebrae from raptor bird nests and pellets: a case study on the predation of an endangered viper</title>
-      <link>http://localhost:1313/publications/tisza-2024-foodwebs/</link>
+      <link>https://consherplab.github.io/publications/tisza-2024-foodwebs/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/tisza-2024-foodwebs/</guid>
+      <guid>https://consherplab.github.io/publications/tisza-2024-foodwebs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Management impacts on three reptile species (Vipera ursinii, Lacerta agilis, Lacerta viridis) in sandy grasslands in Hungary: mowing should be avoided</title>
-      <link>http://localhost:1313/publications/mizsei-2023-conservationscienceandpractice/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2023-conservationscienceandpractice/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2023-conservationscienceandpractice/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2023-conservationscienceandpractice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparative mitochondrial phylogeography of water frogs (Ranidae: Pelophylax spp.) from the southwestern Balkans</title>
-      <link>http://localhost:1313/publications/papezik-2023-vertebratezoology/</link>
+      <link>https://consherplab.github.io/publications/papezik-2023-vertebratezoology/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/papezik-2023-vertebratezoology/</guid>
+      <guid>https://consherplab.github.io/publications/papezik-2023-vertebratezoology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
+      <link>https://consherplab.github.io/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
+      <guid>https://consherplab.github.io/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
+      <link>https://consherplab.github.io/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
+      <guid>https://consherplab.github.io/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
+      <link>https://consherplab.github.io/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
+      <guid>https://consherplab.github.io/project/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://consherplab.github.io/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://consherplab.github.io/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <link>https://consherplab.github.io/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>https://consherplab.github.io/teaching/js/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -205,7 +205,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://consherplab.github.io/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -282,9 +282,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>http://localhost:1313/teaching/python/</link>
+      <link>https://consherplab.github.io/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/python/</guid>
+      <guid>https://consherplab.github.io/teaching/python/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -329,7 +329,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://consherplab.github.io/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -406,33 +406,33 @@ data.head()
     
     <item>
       <title>Hide or die when the winds bring wings: predator avoidance by activity shift in a mountain snake</title>
-      <link>http://localhost:1313/publications/radovics-2023-frontierszoology/</link>
+      <link>https://consherplab.github.io/publications/radovics-2023-frontierszoology/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/radovics-2023-frontierszoology/</guid>
+      <guid>https://consherplab.github.io/publications/radovics-2023-frontierszoology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Before-after-control-impact field experiment shows anti-predator netting enhances occupancy of the threatened Hungarian meadow viper (Vipera ursinii rakosiensis)</title>
-      <link>http://localhost:1313/publications/mizsei-2023-wildlifebiology/</link>
+      <link>https://consherplab.github.io/publications/mizsei-2023-wildlifebiology/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/mizsei-2023-wildlifebiology/</guid>
+      <guid>https://consherplab.github.io/publications/mizsei-2023-wildlifebiology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Voluntary thermal maximum of grassland vipers (Vipera spp.): environmental drivers and local adaptation</title>
-      <link>http://localhost:1313/publications/radovics-2023-zooljs/</link>
+      <link>https://consherplab.github.io/publications/radovics-2023-zooljs/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/radovics-2023-zooljs/</guid>
+      <guid>https://consherplab.github.io/publications/radovics-2023-zooljs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First illustrated record of melanism in Dinnik’s Viper, Vipera dinniki Nikolsky, 1913 in Georgia</title>
-      <link>http://localhost:1313/publications/schmid-2023-herpetologynotes/</link>
+      <link>https://consherplab.github.io/publications/schmid-2023-herpetologynotes/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/schmid-2023-herpetologynotes/</guid>
+      <guid>https://consherplab.github.io/publications/schmid-2023-herpetologynotes/</guid>
       <description></description>
     </item>
     
