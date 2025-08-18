@@ -1,10 +1,12 @@
-{{- $imgs := site.Data.gallery.images | default (slice) -}}
-{{- if gt (len $imgs) 0 -}}
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
-  {{- range shuffle $imgs -}}
-  <figure class="rounded-xl overflow-hidden shadow">
-    <img src="{{ . }}" alt="" loading="lazy">
-  </figure>
-  {{- end -}}
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-0">
+  {{ $yaml := .Page.Resources.GetMatch "home/gallery.yaml" }}
+  {{ if not $yaml }}
+    {{ $yaml = resources.Get "home/gallery.yaml" }}
+  {{ end }}
+  {{ $data := $yaml | transform.Unmarshal }}
+  {{ range $data.images }}
+    <div class="rounded-2xl overflow-hidden shadow-md">
+      <img src="{{ . }}" alt="" loading="lazy" class="w-full h-auto block" />
+    </div>
+  {{ end }}
 </div>
-{{- end -}}
