@@ -2,9 +2,11 @@
 {{ if not $cfg }}
   <p style="color:#b00">gallery.yaml not found.</p>
 {{ else }}
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 mt-4">
     {{ range $cfg.images }}
-      <img src="{{ . }}" alt="ConsHerpLab photo" loading="lazy" style="display:block;width:100%;height:auto;">
+      <a href="{{ . }}" target="_blank">
+        <img src="{{ . }}" alt="ConsHerpLab photo" loading="lazy" style="display:block;width:100%;height:auto;">
+      </a>
     {{ end }}
   </div>
 {{ end }}
