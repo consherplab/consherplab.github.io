@@ -1,0 +1,13 @@
+{{/* Shortcode: gallerylist
+     Usage: {{< gallerylist imgs="/img/1.jpg,/img/2.jpg, /img/3.jpg" >}}
+     Renders a shuffled square-tile gallery. */}}
+
+{{ $imgs := split (.Get "imgs") "," }}
+<div class="gallery">
+  {{ range shuffle $imgs }}
+    {{ $src := trim . " " }}
+    {{ if $src }}
+      <img src="{{ $src }}" alt="">
+    {{ end }}
+  {{ end }}
+</div>

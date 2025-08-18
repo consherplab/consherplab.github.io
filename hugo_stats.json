@@ -174,6 +174,7 @@
       "font-semibold",
       "footer-license-icons",
       "from-primary-200",
+      "gallery-grid",
       "gap-1",
       "gap-10",
       "gap-2",
@@ -495,8 +496,11 @@
     ],
     "ids": [
       "Layer_1",
+      "amphibian-and-reptile-diversity-in-the-balkans",
       "ch-members-grid",
       "code",
+      "conservation-of-the-hungarian-meadow-viper",
+      "development-of-r-tools-for-ecological-monitoring",
       "did-you-find-this-page-helpful-consider-sharing-it-",
       "hide-button",
       "inline-images",
@@ -523,6 +527,7 @@
       "sun",
       "teaching",
       "test-students",
+      "thermal-ecology-and-climate-change-vulnerability-of-grassland-vipers",
       "top",
       "video"
     ]

@@ -3,3 +3,16 @@
   margin-left: 2em;    /* aligns wrapped lines */
   margin-bottom: 0.8em;
 }
+
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:10px;
+}
+.gallery-grid img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:4px;
+  display:block;
+}

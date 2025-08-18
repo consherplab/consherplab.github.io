@@ -1,0 +1,15 @@
+<div id="shuffle-{{ now.UnixNano }}" class="shuffle-container">
+  {{ .Inner | safeHTML }}
+</div>
+<script>
+(function(){
+  var root = document.currentScript.previousElementSibling;
+  if(!root) return;
+  var kids = Array.from(root.children);
+  for (let i = kids.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    root.appendChild(kids[j]);
+    kids.splice(j,1);
+  }
+})();
+</script>

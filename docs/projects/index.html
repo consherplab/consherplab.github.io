@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
+  <meta name="description" content="Conservation Herpetology Lab." />
 
   
   <link rel="alternate" hreflang="en-us" href="http://localhost:1313/projects/" />
@@ -64,6 +64,9 @@
   
   
 
+  
+    
+    <link href="/css/custom.min.ed644f244fa43b2a848c633f6a316fa1766f608d9684b1b8f1ba4d3611dc4098.css" rel="stylesheet" />
   
 
   <script>
@@ -191,7 +194,7 @@
   <meta property="og:site_name" content="ConsHerpLab" />
   <meta property="og:url" content="http://localhost:1313/projects/" />
   <meta property="og:title" content="Projects | ConsHerpLab" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_d3200dc62e89e9e1.png" />
+  <meta property="og:description" content="Conservation Herpetology Lab." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_d3200dc62e89e9e1.png" />
     <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_d3200dc62e89e9e1.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -747,12 +750,70 @@
 <div class="max-w-prose mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
     <h1 class="lg:text-6xl">Projects</h1>
-    <ul>
-<li><strong>Conservation of the Hungarian Meadow Viper</strong></li>
-<li><strong>Thermal ecology of and climate change vulnerability of Grassland vipers</strong></li>
-<li><strong>Amphibian and reptile Diversity in the Balkans</strong></li>
-<li><strong>Development of R tools for ecological monitoring</strong></li>
-</ul>
+    <style>
+/* Force grid layout on Projects page, even inside .prose wrappers */
+.prose .gallery-grid,
+.gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important;
+  gap: 10px !important;         /* equal vertical & horizontal gap */
+  align-items: stretch !important;
+}
+
+/* Tile behaviour for the images (square tiles) */
+.prose .gallery-grid > img,
+.gallery-grid > img {
+  width: 100% !important;
+  height: 240px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 !important;         /* kill theme margins on images */
+  border-radius: 4px;
+}
+</style>
+<h1 id="conservation-of-the-hungarian-meadow-viper">Conservation of the Hungarian Meadow Viper</h1>
+<p>The Hungarian meadow viper (<em>Vipera ursinii rakosiensis</em>) is among Europe’s most endangered reptiles. Under the HUNVIPHAB LIFE project (LIFE18 NAT/HU/000799), team members, some employed at Kiskunság National Park Directorate and others volunteering, conduct field surveys, population monitoring, and comprehensive habitat restoration to preserve viable populations at Kiskunság. Management actions include predator control, grassland management, habitat reconstruction, and evaluation of conservation interventions to inform sustainable recovery strategies.</p>
+<div class="gallery-grid">
+  <img src="/images/projects/hunviphab/hunviphab1.jpg" alt="">
+  <img src="/images/projects/hunviphab/hunviphab2.jpg" alt="">
+  <img src="/images/projects/hunviphab/hunviphab3.jpg" alt="">
+  <img src="/images/projects/hunviphab/hunviphab4.jpg" alt="">
+  <img src="/images/projects/hunviphab/hunviphab5.jpg" alt="">
+  <img src="/images/projects/hunviphab/hunviphab6.jpg" alt="">
+</div>
+<hr>
+<h1 id="thermal-ecology-and-climate-change-vulnerability-of-grassland-vipers">Thermal Ecology and Climate Change Vulnerability of Grassland Vipers</h1>
+<p>Cold-adapted grassland vipers (i.e. <em>Vipera ursinii</em>, <em>V. renardi</em>, <em>V. graeca</em>, <em>V. darevskii</em>) are highly sensitive to climate warming. The team investigates their thermal preferences, voluntary maximum temperatures, and activity patterns under changing climates. Combining experiments, mechanistic modeling, and field data, they forecast range shifts and assess adaptive capacity to guide conservation of vulnerable alpine and steppe ecosystems.</p>
+<div class="gallery-grid">
+  <img src="/images/projects/climatechange/climatechange1.jpg" alt="">
+  <img src="/images/projects/climatechange/climatechange2.jpg" alt="">
+  <img src="/images/projects/climatechange/climatechange3.jpg" alt="">
+  <img src="/images/projects/climatechange/climatechange4.jpg" alt="">
+  <img src="/images/projects/climatechange/climatechange5.jpg" alt="">
+  <img src="/images/projects/climatechange/climatechange6.jpg" alt="">
+</div>
+<hr>
+<h1 id="amphibian-and-reptile-diversity-in-the-balkans">Amphibian and Reptile Diversity in the Balkans</h1>
+<p>The Balkan Peninsula is a herpetofaunal biodiversity hotspot. The Balkan Herps project integrates field surveys, molecular analyses, and spatial modeling to map species distributions, uncover cryptic lineages, and assess threats including road mortality and land‑use change. The project builds occurrence-based species distribution models and uses the Zonation tool to evaluate the effectiveness of protected areas and identify priorities for new designations, supporting regional conservation planning.</p>
+<div class="gallery-grid">
+  <img src="/images/projects/balkanherps/balkanherps.jpg" alt="">
+  <img src="/images/projects/balkanherps/balkanherps2.jpg" alt="">
+  <img src="/images/projects/balkanherps/balkanherps3.jpg" alt="">
+  <img src="/images/projects/balkanherps/balkanherps4.jpg" alt="">
+  <img src="/images/projects/balkanherps/balkanherps5.jpg" alt="">
+  <img src="/images/projects/balkanherps/balkanherps6.jpg" alt="">
+</div>
+<hr>
+<h1 id="development-of-r-tools-for-ecological-monitoring">Development of R Tools for Ecological Monitoring</h1>
+<p>Reliable monitoring methods are essential for tracking rare and cryptic species. We develop open-source R packages and workflows to improve occupancy and abundance estimation, correct for imperfect detectability, and simulate survey designs. These tools support reptile and amphibian conservation and are adaptable to other taxa and habitats. Source: <a href="https://github.com/edvardmizsei/hunviphab" target="_blank" rel="noopener">https://github.com/edvardmizsei/hunviphab</a>.</p>
+<div class="gallery-grid">
+  <img src="/images/projects/rtools/r2.jpg" alt="">
+  <img src="/images/projects/rtools/r3.jpg" alt="">
+  <img src="/images/projects/rtools/r4.jpg" alt="">
+  <img src="/images/projects/rtools/r5.jpg" alt="">
+  <img src="/images/projects/rtools/r6.jpg" alt="">
+  <img src="/images/projects/rtools/R_logo.png" alt="">
+</div>
 
   </article>
 </div>
@@ -829,7 +890,7 @@
 
   
   <p class="powered-by text-center">
-    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Edvárd Mizsei. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 

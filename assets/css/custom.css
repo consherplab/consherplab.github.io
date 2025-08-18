@@ -1,0 +1,13 @@
+/* Custom styles */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px; /* equal vertical and horizontal spacing */
+}
+
+.project-gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* ensures 1×1 crop-like square tiles */
+  border-radius: 0;
+}
