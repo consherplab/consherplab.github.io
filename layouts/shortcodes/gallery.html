@@ -1,9 +1,9 @@
-{{ $cfg := site.GetPage "content/home/gallery.yaml" }}
+{{ $cfg := site.Data.gallery }}
 {{ if not $cfg }}
   <p style="color:#b00">gallery.yaml not found.</p>
 {{ else }}
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
-    {{ range $cfg.Params.images }}
+    {{ range $cfg.images }}
       <div class="rounded-2xl shadow p-0 overflow-hidden">
         <img src="{{ . }}" alt="ConsHerpLab photo" loading="lazy" style="display:block;width:100%;height:auto;">
       </div>
